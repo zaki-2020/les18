@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+[class*="col-"] {
+float: left;
+padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+body{background-color: blue;}@media only screen and (min-width: 768px) {body{background-color: green;}}
+#image {
+  border: 1px solid black;
+text-align: center;
+  background: url(Leidschendam.jpg);
+  background-size: 100% 170px;
+  background-repeat: no-repeat;
+  padding: 15px;}
+  header{
+    font-family: cursive;
+  }
+  img{
+    float: right;
+  }
+  .menu ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.menu li {
+  font-family: cursive;
+padding: 8px;
+margin-bottom: 7px;
+background-color: olive;
+color: white;
+}
+.menu li:hover {
+background-color: green;
+}
+footer {
+background-size: 100%;
+height: 120px;
+  text-align: center;
+  padding: 3px;
+  background-color: gray;
+  color: white;
+}
+</style>
+</head>
+<body>
+<div id="image">
+  <header><h1>Leidschendam</h1></header>
+</div>
+<div class="row">
+<div class="col-2 menu">
+<ul>
+<li>Westfields Mall</li>
+<li>Vliet kanaal</li>
+<li>Museum</li>
+<li>Sportschool</li>
+<li>Rustige Beurt</li>
+</ul>
+</div>
+<section>
+<div class="col-9" style="background-color: gray; margin: 8px;">
+  <img src="Leidschendam.jpg">
+<h1>Welkom in Leidschendam</h1>
+<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+<br>
+<p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+</div>
+</section>
+</div>
+<div class="col-12">
+<footer><h2>Dit is een Footer</h2></footer>
+</div>
+</body>
+</html>
